@@ -1,0 +1,153 @@
+.projects {
+    background-color: #15061b;
+}
+
+.container {
+    padding: 7rem 0;
+    margin: 0 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-container {
+    max-width: 1300px;
+    width: 86%;
+    position: relative;
+}
+
+.project-container .slide-button {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 50%;
+    height: 45px;
+    width: 45px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.project-container .slide-button:hover {
+    background: #444;
+}
+
+.project-container .slide-button#prev-slide {
+    left: -10px;
+}
+
+.project-container .slide-button#next-slide {
+    right: -10px;
+}
+
+.project-container .image-list {
+    display: grid;
+    gap: 18px;
+    padding: 14px;
+    overflow: hidden;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.project-container .image-list .image-list-div {
+    transition: transform 0.3s ease-in-out;
+    /* Smooth transition for the transform property */
+}
+
+.project-container .image-list .image-item {
+    width: 500px;
+    height: 270px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.project-container .image-list .image-item-txt {
+    background-color: #342E37;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 16px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.project-container .image-list .image-item-txt h2 {
+    color: #a2d729;
+}
+
+.project-container .image-list .image-item-txt:hover {
+    outline: 2px solid #b69bc0;
+
+}
+
+@media (max-width: 1024px) {
+    .project-container .image-list {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .project-container .image-list .image-item {
+        height: 250px;
+    }
+
+    .project-container .image-list .image-item-txt {
+
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .project-container .image-list .image-item-txt h2 {
+        font-size: 12px;
+    }
+
+    .project-container {
+        width: 77%;
+    }
+
+    .container {
+        padding: 3rem 0;
+        margin: auto;
+    }
+
+    .project-container .slide-button {
+
+        height: 35px;
+        width: 35px;
+        font-size: 1.3rem;
+    }
+}
+
+
+@media (max-width: 425px) {
+
+    .big-heading {
+        font-size: 1.3rem;
+        padding-top: 8px;
+    }
+
+    .heading {
+        font-size: 1rem;
+    }
+
+    .container {
+        padding: 1rem 0;
+    }
+
+    .project-container .image-list {
+        padding: 5px;
+    }
+    .project-container .image-list .image-item {
+        width: 30px;
+        height: 200px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(1200px, 100vw);
+    }
+}

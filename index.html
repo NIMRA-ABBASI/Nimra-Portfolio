@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimra's Portfolio</title>
+    <link rel="icon" href="/images/title_image.jpg" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="about.css" type="text/css">
+    <link rel="stylesheet" href="services.css" type="text/css">
+    <link rel="stylesheet" href="project.css" type="text/css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/7828f9ee8e.js" crossorigin="anonymous"></script>
+    <!--boxicons fonts-->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+</head>
+
+<body>
+    <section class="home">
+        <header>
+            <div class="logo">
+                <span>Nimra's</span> Portfolio
+            </div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                    <li class="resume-link"><a href="Nimra Abbasi Resume.pdf" class="btn-resume" download>Download
+                            Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main-content">
+            <h2> Hi, I'm Nimra Abbasi</h2>
+            <h1>I am a Web Developer</h1>
+            <h2>I make complex simple.</h2>
+            <div class="btn-started " >
+                <a class="btn-resume" href="#">LET'S GET STARTED</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="About">
+        <div class="About-image">
+            <div class="box">
+                <div class="box-content">
+                    <img src="/images/profile_pic.jpeg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="About-content">
+            <div class="about-heading">
+                <div class="big-heading">
+                    <h1>About.</h1>
+                </div>
+                <div class="heading">
+                    <h1>About me</h1>
+                </div>
+            </div>
+            <div class="About-content-line">
+                <h1>I'm Creative UI/UX Designer and Web Developer</h1>
+            </div>
+
+            <p>
+                My path towards becoming a web developer unfolded during my university days. Pursuing a computer science
+                degree, I encountered both challenges and excitement in the world of coding.
+            </p>
+            <p>
+                My journey commenced in the first semester, where I tackled a course project involving the creation of a
+                website's.
+            </p>
+            <p>
+                This initial exposure lit the spark that has driven me forward ever since.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- services -->
+    <section id="services">
+        <div class="main-heading">
+            <div class="big-heading">
+                <h1>What I Provide</h1>
+            </div>
+            <div class="heading">
+                <h1>My Services</h1>
+            </div>
+        </div>
+        <!-- SLIDER/CARSOULE -->
+        <div class="grid-container">
+            <div class="grid-item">
+                <i class="fa-solid fa-globe fa-2xl " style="color: #a2d729;"></i>
+                <h3>Website Development</h3>
+                <p>Crafting functional and stylish websites tailored to your brand.</p>
+            </div>
+            <div class="grid-item">
+                <i class="fa-brands fa-unity fa-2xl" style="color: #a2d729;"></i>
+                <h3>Unity App Development</h3>
+                <p>Building engaging mobile applications using the power of Unity.</p>
+            </div>
+            <div class="grid-item">
+                <i class="fa-solid fa-code  fa-2xl" style="color: #a2d729;"></i>
+                <h3>Frontend Development</h3>
+                <p>Creating seamless and visually appealing user interfaces.</p>
+            </div>
+            <div class="grid-item">
+                <i class="fa-brands fa-android fa-2xl" style="color: #a2d729;"></i>
+                <h3>Android App Development</h3>
+                <p>Bringing your ideas to life with innovative Android applications.</p>
+            </div>
+            <div class="grid-item">
+                <i class="fa-brands fa-battle-net fa-2xl" style="color: #a2d729;"></i>
+                <h3>.NET Web Forms Development</h3>
+                <p>Developing robust online solutions using .NET Web Forms.</p>
+            </div>
+            <div class="grid-item">
+                <i class="fa-solid fa-paintbrush fa-2xl" style="color: #a2d729;"></i>
+                <h3>UI/UX</h3>
+                <p>Enhancing user experiences through intuitive and captivating design.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- projects -->
+    <section id="projects" class="projects">
+        <div class="main-heading">
+            <div class="big-heading">
+                <h1>My Amazing Work</h1>
+            </div>
+            <div class="heading">
+                <h1>My Projects</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="project-container">
+
+                <button id="prev-slide" class="slide-button material-symbols-rounded" onclick="goPrev()">chevron_left</button>
+
+                <ul class="image-list">
+
+                    <div class="image-list-div">
+                        <img class="image-item" src="images/img-1.JPG" alt="img-1" />
+                        <div class="image-item-txt">
+                            <h2>Portfolio website</h2><br>
+                            <span>Technologies: </span>HTML , CSS , JAVASCRIPT , BOOTSTRAP
+                        </div>
+                    </div>
+                    <div class="image-list-div">
+                        <img class="image-item" src="images/img-2.JPG" alt="img-2" />
+                        <div class="image-item-txt">
+                            <h2>Quiz App</h2><br>
+                            <span>Technologies: </span>HTML , CSS , JAVASCRIPT
+                        </div>
+                    </div>
+                    <div class="image-list-div">
+                        <img class="image-item" src="images/img-3.JPG" alt="img-3" />
+                        <div class="image-item-txt">
+                            <h2>Game Bazzar website</h2><br>
+                            <span>Technologies: </span>HTML , CSS , JAVASCRIPT , BOOTSTRAP , PHP
+                        </div>
+                    </div>
+                    <div class="image-list-div">
+                        <img class="image-item" src="images/img-6.JPG" alt="img-6" />
+                        <div class="image-item-txt">
+                            <h2>Urdu Shikheyn</h2><br>
+                            <span>Technologies: </span>Unity , Vuforia , Blender 3D , Inkscape
+                        </div>
+                    </div>
+                    <div class="image-list-div">
+                        <img class="image-item" src="images/img-4.JPG" alt="img-4" />
+                        <div class="image-item-txt">
+                            <h2>Color flipper website</h2><br>
+                            <span>Technologies: </span>HTML , CSS , JAVASCRIPT
+                        </div>
+                    </div>
+                    <div class="image-list-div">
+                        <img class="image-item" src="images/img-7.png" alt="img-7" />
+                        <div class="image-item-txt">
+                            <h2>Import & Export website</h2><br>
+                            <span>Technologies: </span>HTML , CSS
+                        </div>
+                    </div>
+                </ul>
+
+                <button id="next-slide" class="slide-button material-symbols-rounded" onclick="goNext()">chevron_right</button>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Contact us -->
+    <section id="contact-me">
+        <div class="main-heading">
+            <div class="big-heading">
+                <h1>Get In Touch</h1>
+            </div>
+            <div class="heading">
+                <h1>Contact Me</h1>
+            </div>
+        </div>
+        <div class="contact-content">
+            <div class="form-container">
+                <form action="https://httpbin.org/post" method="post" class="contact-form">
+                    <div>
+                        <input name="Name" type="text" required>
+                        <label class="placeholder">First Name</label>
+                    </div>
+                    <div>
+                        <input name="LastName" type="text" required>
+                        <label class="placeholder">Last Name</label>
+                    </div>
+                    <div>
+                        <input name="Email" type="text" required>
+                        <label class="placeholder">Email</label>
+                    </div>
+                    <div>
+                        <input name="Contact" type="number" required>
+                        <label class="placeholder">Phone number</label>
+                    </div>
+                    <textarea name="Message" cols="30" rows="10" placeholder="Write Message Here......"></textarea>
+                    <input type="submit" value="Send" class="send-btn">
+                </form>
+            </div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6646.7041599122!2d73.1289865146139!3d33.59616817958217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfec7d80875ef9%3A0x975e3672605ce910!2sJudicial%20Colony%2C%20Rawalpindi%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1696154169208!5m2!1sen!2s"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Footer  -->
+    <footer>
+        <div class="logo">
+            <span>Nimra's</span> Portfolio
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/NIMRA-ABBASI">
+                <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>
+            </a>
+            <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nimra-abbasi/">
+                <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;" ></i>
+            </a>
+            <a href="https://www.google.com/maps/place/223+Lane+1B,+Judicial+Colony,+Rawalpindi,+Punjab,+Pakistan/@33.5959403,73.13077,17z/data=!3m1!4b1!4m6!3m5!1s0x38dfec8713132b19:0x3def15b539292c3c!8m2!3d33.5959359!4d73.1333449!16s%2Fg%2F11ggt5c2lf?entry=ttu">
+                <i class="fa-sharp fa-solid fa-map-location-dot fa-xl" style="color: #ffffff;"></i>
+            </a>
+    
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i></a>
+    <!--Scripts JS-->
+    <script src="main.js"></script>
+</body>
+
+</html>
