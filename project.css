@@ -3,8 +3,7 @@
 }
 
 .container {
-    padding: 7rem 0;
-    margin: 0 14%;
+    padding: 3rem 0 ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +11,8 @@
 
 .project-container {
     max-width: 1300px;
-    width: 86%;
+    width: 80%;
+    margin:auto;
     position: relative;
 }
 
@@ -112,7 +112,6 @@
     }
 
     .container {
-        padding: 3rem 0;
         margin: auto;
     }
 
@@ -125,7 +124,7 @@
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
 
     .big-heading {
         font-size: 1.3rem;
@@ -144,7 +143,7 @@
         padding: 5px;
     }
     .project-container .image-list .image-item {
-        width: 30px;
+        width: 330px;
         height: 200px;
         background-position: center center;
         background-repeat: no-repeat;
